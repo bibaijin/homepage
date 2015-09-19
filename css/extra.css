@@ -6,6 +6,7 @@ div.col-md-9 h1:first-of-type {
 
 div.col-md-9 p:first-of-type {
     text-align: center;
+    font-size: 30px;
 }
 
 div.col-md-9 p.admonition-title:first-of-type {
