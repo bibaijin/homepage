@@ -2,18 +2,18 @@
     "docs": [
         {
             "location": "/",
-            "text": "\u4e2a\u4eba\u4e3b\u9875\n\n\n\u5f20\u51ef\n\n\n\n\n\u4e2a\u4eba\u7b80\u5386",
+            "text": "\u4e2a\u4eba\u4e3b\u9875\n\n\n\u7b80\u5386\u4e0b\u8f7d\n\n\n\n\n\u7b80\u5386",
             "title": "\u4e3b\u9875"
         },
         {
             "location": "/#_1",
-            "text": "\u5f20\u51ef",
+            "text": "\u7b80\u5386\u4e0b\u8f7d",
             "title": "\u4e2a\u4eba\u4e3b\u9875"
         },
         {
             "location": "/#_2",
             "text": "",
-            "title": "\u4e2a\u4eba\u7b80\u5386"
+            "title": "\u7b80\u5386"
         },
         {
             "location": "/haskell/",
@@ -29,6 +29,21 @@
             "location": "/haskell/#_1",
             "text": "Learn You a Haskell for Great Good!  Real World Haskell  Yesod Web Framework Book",
             "title": "\u8bfb\u4e66\u7b14\u8bb0"
+        },
+        {
+            "location": "/LaTeX/",
+            "text": "LaTeX\n\n\n\u914d\u7f6e\n\n\n\u4e2d\u6587\u73af\u5883\n\n\n\u5b8f\u5305\n\n\nmoderncv\n\n\nmoderncvtimeline",
+            "title": "LaTeX"
+        },
+        {
+            "location": "/LaTeX/#latex",
+            "text": "",
+            "title": "LaTeX"
+        },
+        {
+            "location": "/LaTeX/#_1",
+            "text": "\u4e2d\u6587\u73af\u5883  \u5b8f\u5305  moderncv  moderncvtimeline",
+            "title": "\u914d\u7f6e"
         },
         {
             "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/",
