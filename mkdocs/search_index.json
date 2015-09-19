@@ -16,92 +16,92 @@
             "title": "\u7b80\u5386"
         },
         {
-            "location": "/haskell/",
+            "location": "/technology/haskell/",
             "text": "Haskell\n\n\n\u51fd\u6570\u5f0f\u7f16\u7a0b\n\n\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\nLearn You a Haskell for Great Good!\n\n\nReal World Haskell\n\n\nYesod Web Framework Book",
             "title": "Haskell"
         },
         {
-            "location": "/haskell/#haskell",
+            "location": "/technology/haskell/#haskell",
             "text": "\u51fd\u6570\u5f0f\u7f16\u7a0b",
             "title": "Haskell"
         },
         {
-            "location": "/haskell/#_1",
+            "location": "/technology/haskell/#_1",
             "text": "Learn You a Haskell for Great Good!  Real World Haskell  Yesod Web Framework Book",
             "title": "\u8bfb\u4e66\u7b14\u8bb0"
         },
         {
-            "location": "/LaTeX/",
+            "location": "/technology/LaTeX/",
             "text": "LaTeX\n\n\n\u6392\u7248\u8f6f\u4ef6\n\n\n\n\n\u914d\u7f6e\n\n\n\u4e2d\u6587\u73af\u5883\n\n\n\u5b8f\u5305\n\n\nmoderncv\n\n\nmoderncvtimeline",
             "title": "LaTeX"
         },
         {
-            "location": "/LaTeX/#latex",
+            "location": "/technology/LaTeX/#latex",
             "text": "\u6392\u7248\u8f6f\u4ef6",
             "title": "LaTeX"
         },
         {
-            "location": "/LaTeX/#_1",
+            "location": "/technology/LaTeX/#_1",
             "text": "\u4e2d\u6587\u73af\u5883  \u5b8f\u5305  moderncv  moderncvtimeline",
             "title": "\u914d\u7f6e"
         },
         {
-            "location": "/python/",
+            "location": "/technology/python/",
             "text": "Python\n\n\n\u8bed\u8a00\n\n\n\n\n\u5f00\u53d1\u73af\u5883\u914d\u7f6e",
             "title": "Python"
         },
         {
-            "location": "/python/#python",
+            "location": "/technology/python/#python",
             "text": "\u8bed\u8a00",
             "title": "Python"
         },
         {
-            "location": "/python/#_1",
+            "location": "/technology/python/#_1",
             "text": "",
             "title": "\u5f00\u53d1\u73af\u5883\u914d\u7f6e"
         },
         {
-            "location": "/shell/",
+            "location": "/technology/shell/",
             "text": "Shell\n\n\n\u811a\u672c\n\n\n\n\n\u4f8b\u5b50",
             "title": "Shell"
         },
         {
-            "location": "/shell/#shell",
+            "location": "/technology/shell/#shell",
             "text": "\u811a\u672c",
             "title": "Shell"
         },
         {
-            "location": "/shell/#_1",
+            "location": "/technology/shell/#_1",
             "text": "",
             "title": "\u4f8b\u5b50"
         },
         {
-            "location": "/linux/",
+            "location": "/technology/linux/",
             "text": "Linux\n\n\n\u7cfb\u7edf\n\n\n\n\n\u914d\u7f6e",
             "title": "Linux"
         },
         {
-            "location": "/linux/#linux",
+            "location": "/technology/linux/#linux",
             "text": "\u7cfb\u7edf",
             "title": "Linux"
         },
         {
-            "location": "/linux/#_1",
+            "location": "/technology/linux/#_1",
             "text": "",
             "title": "\u914d\u7f6e"
         },
         {
-            "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/",
+            "location": "/humanity/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/",
             "text": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2\n\n\n\u4e07\u4fca\u4eba\u8001\u5e08\n\n\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\n\u9053\u5fb7\u539f\u5219\u7814\u7a76",
             "title": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2"
         },
         {
-            "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/#_1",
+            "location": "/humanity/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/#_1",
             "text": "\u4e07\u4fca\u4eba\u8001\u5e08",
             "title": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2"
         },
         {
-            "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/#_2",
+            "location": "/humanity/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/#_2",
             "text": "\u9053\u5fb7\u539f\u5219\u7814\u7a76",
             "title": "\u8bfb\u4e66\u7b14\u8bb0"
         },
