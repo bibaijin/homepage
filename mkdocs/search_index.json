@@ -17,12 +17,12 @@
         },
         {
             "location": "/haskell/",
-            "text": "Haskell\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\nLearn You a Haskell for Great Good!\n\n\nReal World Haskell\n\n\nYesod Web Framework Book",
+            "text": "Haskell\n\n\n\u51fd\u6570\u5f0f\u7f16\u7a0b\n\n\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\nLearn You a Haskell for Great Good!\n\n\nReal World Haskell\n\n\nYesod Web Framework Book",
             "title": "Haskell"
         },
         {
             "location": "/haskell/#haskell",
-            "text": "",
+            "text": "\u51fd\u6570\u5f0f\u7f16\u7a0b",
             "title": "Haskell"
         },
         {
@@ -32,12 +32,12 @@
         },
         {
             "location": "/LaTeX/",
-            "text": "LaTeX\n\n\n\u914d\u7f6e\n\n\n\u4e2d\u6587\u73af\u5883\n\n\n\u5b8f\u5305\n\n\nmoderncv\n\n\nmoderncvtimeline",
+            "text": "LaTeX\n\n\n\u6392\u7248\u8f6f\u4ef6\n\n\n\n\n\u914d\u7f6e\n\n\n\u4e2d\u6587\u73af\u5883\n\n\n\u5b8f\u5305\n\n\nmoderncv\n\n\nmoderncvtimeline",
             "title": "LaTeX"
         },
         {
             "location": "/LaTeX/#latex",
-            "text": "",
+            "text": "\u6392\u7248\u8f6f\u4ef6",
             "title": "LaTeX"
         },
         {
@@ -47,12 +47,12 @@
         },
         {
             "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/",
-            "text": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\n\u9053\u5fb7\u539f\u5219\u7814\u7a76",
+            "text": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2\n\n\n\u4e07\u4fca\u4eba\u8001\u5e08\n\n\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\n\u9053\u5fb7\u539f\u5219\u7814\u7a76",
             "title": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2"
         },
         {
             "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/#_1",
-            "text": "",
+            "text": "\u4e07\u4fca\u4eba\u8001\u5e08",
             "title": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2"
         },
         {
@@ -62,12 +62,17 @@
         },
         {
             "location": "/about/",
-            "text": "\u8054\u7cfb\u65b9\u5f0f\n\n\n\u90ae\u7bb1\uff1akaizhang91@163.com",
+            "text": "\u5173\u4e8e\n\n\n\u6211\n\n\n\n\n\u8054\u7cfb\u65b9\u5f0f\n\n\n\u90ae\u7bb1\uff1a",
             "title": "\u5173\u4e8e"
         },
         {
             "location": "/about/#_1",
-            "text": "\u90ae\u7bb1\uff1akaizhang91@163.com",
+            "text": "\u6211",
+            "title": "\u5173\u4e8e"
+        },
+        {
+            "location": "/about/#_2",
+            "text": "\u90ae\u7bb1\uff1a",
             "title": "\u8054\u7cfb\u65b9\u5f0f"
         }
     ]
