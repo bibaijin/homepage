@@ -10,6 +10,9 @@ pages:
     - 技术:
         - haskell.md
         - LaTeX.md
+        - python.md
+        - shell.md
+        - linux.md
     - 人文:
         - 西方伦理学史.md
     - 关于: about.md
