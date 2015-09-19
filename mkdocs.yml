@@ -1,0 +1,5 @@
+site_name: 张凯的个人主页
+pages:
+    - Home: index.md
+    - About: about.md
+# theme: bootstrap
