@@ -17,7 +17,7 @@
         },
         {
             "location": "/technology/haskell/",
-            "text": "Haskell\n\n\n\u51fd\u6570\u5f0f\u7f16\u7a0b\n\n\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\nLearn You a Haskell for Great Good!\n\n\nReal World Haskell\n\n\nYesod Web Framework Book",
+            "text": "Haskell\n\n\n\u51fd\u6570\u5f0f\u7f16\u7a0b\n\n\n\n\n\u914d\u7f6e\n\n\n\u5b89\u88c5\uff08Arch Linux\uff09\n\n\nsudo pacman -Syu # \u66f4\u65b0\u7cfb\u7edf\nsudo pacman -S ghc # \u7f16\u8bd1\u5668\nsudo pacman -S cabal-install # \u5305\u7ba1\u7406\nsudo pacman -S haddock # \u6587\u6863\u751f\u6210\nsudo pacman -S happy # Parser generator\nsudo pacman -S alex # Lexical analyzer generator\n\n\n\n\n\u7f16\u8f91\u5668\u652f\u6301\uff08Vim\uff09\n\n\nPlugin 'lukerandall/haskellmode-vim'\n\n\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\nLearn You a Haskell for Great Good!\n\n\nReal World Haskell\n\n\nYesod Web Framework Book",
             "title": "Haskell"
         },
         {
@@ -27,12 +27,17 @@
         },
         {
             "location": "/technology/haskell/#_1",
+            "text": "\u5b89\u88c5\uff08Arch Linux\uff09  sudo pacman -Syu # \u66f4\u65b0\u7cfb\u7edf\nsudo pacman -S ghc # \u7f16\u8bd1\u5668\nsudo pacman -S cabal-install # \u5305\u7ba1\u7406\nsudo pacman -S haddock # \u6587\u6863\u751f\u6210\nsudo pacman -S happy # Parser generator\nsudo pacman -S alex # Lexical analyzer generator  \u7f16\u8f91\u5668\u652f\u6301\uff08Vim\uff09  Plugin 'lukerandall/haskellmode-vim'",
+            "title": "\u914d\u7f6e"
+        },
+        {
+            "location": "/technology/haskell/#_2",
             "text": "Learn You a Haskell for Great Good!  Real World Haskell  Yesod Web Framework Book",
             "title": "\u8bfb\u4e66\u7b14\u8bb0"
         },
         {
             "location": "/technology/LaTeX/",
-            "text": "LaTeX\n\n\n\u6392\u7248\u8f6f\u4ef6\n\n\n\n\n\u914d\u7f6e\n\n\n\u4e2d\u6587\u73af\u5883\n\n\n\u5b8f\u5305\n\n\nmoderncv\n\n\nmoderncvtimeline",
+            "text": "LaTeX\n\n\n\u6392\u7248\u8f6f\u4ef6\n\n\n\n\n\u914d\u7f6e\n\n\n\u5b89\u88c5\uff08Arch Linux\uff09\n\n\nsudo pacman -S texlive-langchinese # \u6838\u5fc3\u5305\n\n\n\n\n\u4e2d\u6587\u73af\u5883\n\n\n\u5b8f\u5305\n\n\nmoderncv\n\n\nmoderncvtimeline",
             "title": "LaTeX"
         },
         {
@@ -42,12 +47,12 @@
         },
         {
             "location": "/technology/LaTeX/#_1",
-            "text": "\u4e2d\u6587\u73af\u5883  \u5b8f\u5305  moderncv  moderncvtimeline",
+            "text": "\u5b89\u88c5\uff08Arch Linux\uff09  sudo pacman -S texlive-langchinese # \u6838\u5fc3\u5305  \u4e2d\u6587\u73af\u5883  \u5b8f\u5305  moderncv  moderncvtimeline",
             "title": "\u914d\u7f6e"
         },
         {
             "location": "/technology/python/",
-            "text": "Python\n\n\n\u8bed\u8a00\n\n\n\n\n\u5f00\u53d1\u73af\u5883\u914d\u7f6e",
+            "text": "Python\n\n\n\u8bed\u8a00\n\n\n\n\n\u914d\u7f6e\n\n\n\u5b89\u88c5\n\n\n\u5f00\u53d1\u73af\u5883\n\n\nVim\n\n\nvirtualenv",
             "title": "Python"
         },
         {
@@ -57,12 +62,12 @@
         },
         {
             "location": "/technology/python/#_1",
-            "text": "",
-            "title": "\u5f00\u53d1\u73af\u5883\u914d\u7f6e"
+            "text": "\u5b89\u88c5  \u5f00\u53d1\u73af\u5883  Vim  virtualenv",
+            "title": "\u914d\u7f6e"
         },
         {
             "location": "/technology/shell/",
-            "text": "Shell\n\n\n\u811a\u672c\n\n\n\n\n\u4f8b\u5b50",
+            "text": "Shell\n\n\n\u811a\u672c\n\n\n\n\n\u8bed\u6cd5\n\n\n\u53d8\u91cf\n\n\n\u5faa\u73af\u7ed3\u6784\n\n\n\u5b9e\u4f8b",
             "title": "Shell"
         },
         {
@@ -72,8 +77,13 @@
         },
         {
             "location": "/technology/shell/#_1",
+            "text": "\u53d8\u91cf  \u5faa\u73af\u7ed3\u6784",
+            "title": "\u8bed\u6cd5"
+        },
+        {
+            "location": "/technology/shell/#_4",
             "text": "",
-            "title": "\u4f8b\u5b50"
+            "title": "\u5b9e\u4f8b"
         },
         {
             "location": "/technology/linux/",

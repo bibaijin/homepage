@@ -162,7 +162,9 @@
     
         <li class="main active"><a href="#haskell">Haskell</a></li>
         
-            <li><a href="#_1">读书笔记</a></li>
+            <li><a href="#_1">配置</a></li>
+        
+            <li><a href="#_2">读书笔记</a></li>
         
     
     </ul>
@@ -172,7 +174,21 @@
 <h1 id="haskell">Haskell</h1>
 <p>函数式编程</p>
 <hr />
-<h2 id="_1">读书笔记</h2>
+<h2 id="_1">配置</h2>
+<h3 id="arch-linux">安装（Arch Linux）</h3>
+<pre><code class="bash">sudo pacman -Syu # 更新系统
+sudo pacman -S ghc # 编译器
+sudo pacman -S cabal-install # 包管理
+sudo pacman -S haddock # 文档生成
+sudo pacman -S happy # Parser generator
+sudo pacman -S alex # Lexical analyzer generator
+</code></pre>
+
+<h3 id="vim">编辑器支持（Vim）</h3>
+<pre><code class="text">Plugin 'lukerandall/haskellmode-vim'
+</code></pre>
+
+<h2 id="_2">读书笔记</h2>
 <h3 id="learn-you-a-haskell-for-great-good">Learn You a Haskell for Great Good!</h3>
 <h3 id="real-world-haskell">Real World Haskell</h3>
 <h3 id="yesod-web-framework-book">Yesod Web Framework Book</h3></div>
