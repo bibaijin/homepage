@@ -46,6 +46,51 @@
             "title": "\u914d\u7f6e"
         },
         {
+            "location": "/python/",
+            "text": "Python\n\n\n\u8bed\u8a00\n\n\n\n\n\u5f00\u53d1\u73af\u5883\u914d\u7f6e",
+            "title": "Python"
+        },
+        {
+            "location": "/python/#python",
+            "text": "\u8bed\u8a00",
+            "title": "Python"
+        },
+        {
+            "location": "/python/#_1",
+            "text": "",
+            "title": "\u5f00\u53d1\u73af\u5883\u914d\u7f6e"
+        },
+        {
+            "location": "/shell/",
+            "text": "Shell\n\n\n\u811a\u672c\n\n\n\n\n\u4f8b\u5b50",
+            "title": "Shell"
+        },
+        {
+            "location": "/shell/#shell",
+            "text": "\u811a\u672c",
+            "title": "Shell"
+        },
+        {
+            "location": "/shell/#_1",
+            "text": "",
+            "title": "\u4f8b\u5b50"
+        },
+        {
+            "location": "/linux/",
+            "text": "Linux\n\n\n\u7cfb\u7edf\n\n\n\n\n\u914d\u7f6e",
+            "title": "Linux"
+        },
+        {
+            "location": "/linux/#linux",
+            "text": "\u7cfb\u7edf",
+            "title": "Linux"
+        },
+        {
+            "location": "/linux/#_1",
+            "text": "",
+            "title": "\u914d\u7f6e"
+        },
+        {
             "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/",
             "text": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2\n\n\n\u4e07\u4fca\u4eba\u8001\u5e08\n\n\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\n\u9053\u5fb7\u539f\u5219\u7814\u7a76",
             "title": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2"
