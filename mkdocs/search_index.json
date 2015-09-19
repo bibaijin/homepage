@@ -2,28 +2,53 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Home"
+            "text": "\u4e2a\u4eba\u4e3b\u9875\n\n\n\u5f20\u51ef\n\n\n\n\n\u4e2a\u4eba\u7b80\u5386",
+            "title": "\u4e3b\u9875"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
+            "location": "/#_1",
+            "text": "\u5f20\u51ef",
+            "title": "\u4e2a\u4eba\u4e3b\u9875"
         },
         {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/#_2",
+            "text": "",
+            "title": "\u4e2a\u4eba\u7b80\u5386"
         },
         {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/haskell/",
+            "text": "Haskell\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\nLearn You a Haskell for Great Good!\n\n\nReal World Haskell\n\n\nYesod Web Framework Book",
+            "title": "Haskell"
+        },
+        {
+            "location": "/haskell/#haskell",
+            "text": "",
+            "title": "Haskell"
+        },
+        {
+            "location": "/haskell/#_1",
+            "text": "Learn You a Haskell for Great Good!  Real World Haskell  Yesod Web Framework Book",
+            "title": "\u8bfb\u4e66\u7b14\u8bb0"
+        },
+        {
+            "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/",
+            "text": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2\n\n\n\u8bfb\u4e66\u7b14\u8bb0\n\n\n\u9053\u5fb7\u539f\u5219\u7814\u7a76",
+            "title": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2"
+        },
+        {
+            "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/#_1",
+            "text": "",
+            "title": "\u897f\u65b9\u4f26\u7406\u5b66\u53f2"
+        },
+        {
+            "location": "/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/#_2",
+            "text": "\u9053\u5fb7\u539f\u5219\u7814\u7a76",
+            "title": "\u8bfb\u4e66\u7b14\u8bb0"
         },
         {
             "location": "/about/",
             "text": "\u8054\u7cfb\u65b9\u5f0f\n\n\n\u90ae\u7bb1\uff1akaizhang91@163.com",
-            "title": "About"
+            "title": "\u5173\u4e8e"
         },
         {
             "location": "/about/#_1",
