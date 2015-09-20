@@ -4,6 +4,4 @@
 
 ---
 
-## 简历
-
 ![drawing](img/cv.jpg)
