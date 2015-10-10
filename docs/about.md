@@ -1,9 +1,7 @@
 # 关于
 
-我
+[简历下载](http://jianguoyun.com/p/DcZ-xZYQpqHdBRiJ9g0)
 
 ---
 
-## 联系方式
-
-邮箱：<kaizhang91@163.com>
+![drawing-full](img/cv.jpg)

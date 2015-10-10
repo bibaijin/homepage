@@ -17,6 +17,7 @@ pages:
     - Shell: technology/shell.md
     - Linux: technology/linux.md
     - Git: technology/git.md
+    - MkDocs: technology/mkdocs.md
 - 人文:
     - 西方伦理学史: humanity/西方伦理学史.md
 - 关于: about.md
