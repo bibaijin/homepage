@@ -100,6 +100,12 @@
 </li>
 
                         
+                            
+<li >
+    <a href="../mkdocs/">MkDocs</a>
+</li>
+
+                        
                         </ul>
                     </li>
                 
@@ -141,7 +147,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../../humanity/西方伦理学史/">
+                        <a rel="prev" href="../mkdocs/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -178,14 +184,21 @@
 <h1 id="git">Git</h1>
 <p>版本管理软件</p>
 <hr />
-<h3 id="_1">技巧</h3>
-<h4 id="_2">合并另一个分支的某个文件</h4>
-<h5 id="_3">语法</h5>
+<h2 id="_1">技巧</h2>
+<h3 id="_2">合并另一个分支的某个文件</h3>
+<h4 id="_3">语法</h4>
 <pre><code class="shell">git checkout source_branch &lt;paths&gt;...
 </code></pre>
 
-<h5 id="_4">例子</h5>
+<h4 id="_4">例子</h4>
 <pre><code class="shell">git checkout master Makefile    # now in branch banking
+</code></pre>
+
+<h3 id="_5">标签的使用</h3>
+<pre><code class="sh">git tag -a v0.0.1 -m 'version 0.0.1'    # 增加标签
+git tag     # 显示所有标签
+git show v0.0.1
+git push origin --tags  # 推送到服务器
 </code></pre></div>
             
         </div>
