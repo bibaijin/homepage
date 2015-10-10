@@ -4,4 +4,4 @@
 
 ---
 
-![drawing-full](img/cv.jpg)
+![drawing-full](img/cv.png)
