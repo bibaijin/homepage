@@ -52,7 +52,7 @@
         },
         {
             "location": "/technology/python/",
-            "text": "Python\n\n\n\u8bed\u8a00\n\n\n\n\n\u914d\u7f6e\n\n\n\u5b89\u88c5\n\n\n\u5f00\u53d1\u73af\u5883\n\n\nVim\n\n\nvirtualenv\n\n\n\u76f8\u5173\u8f6f\u4ef6\n\n\nmkdocs \u2013 \u90e8\u7f72\u6587\u6863\n\n\n\u5b89\u88c5\n\n\n$ sudo pip install mkdocs\n\n\n\n\n\u4f7f\u7528\n\n\n\u4e00\u4e2a\u4f8b\u5b50 \u2014 \n\u6211\u7684\u4e3b\u9875\n\n\nhello \u2013 world",
+            "text": "Python\n\n\n\u8bed\u8a00\n\n\n\n\n\u5b89\u88c5\n\n\n\u914d\u7f6e\n\n\n\u5f00\u53d1\u73af\u5883\n\n\nVim\n\n\nvirtualenv\n\n\n\u5e93",
             "title": "Python"
         },
         {
@@ -62,13 +62,18 @@
         },
         {
             "location": "/technology/python/#_1",
-            "text": "\u5b89\u88c5  \u5f00\u53d1\u73af\u5883  Vim  virtualenv",
+            "text": "",
+            "title": "\u5b89\u88c5"
+        },
+        {
+            "location": "/technology/python/#_2",
+            "text": "\u5f00\u53d1\u73af\u5883  Vim  virtualenv",
             "title": "\u914d\u7f6e"
         },
         {
             "location": "/technology/python/#_4",
-            "text": "mkdocs \u2013 \u90e8\u7f72\u6587\u6863  \u5b89\u88c5  $ sudo pip install mkdocs  \u4f7f\u7528  \u4e00\u4e2a\u4f8b\u5b50 \u2014  \u6211\u7684\u4e3b\u9875  hello \u2013 world",
-            "title": "\u76f8\u5173\u8f6f\u4ef6"
+            "text": "",
+            "title": "\u5e93"
         },
         {
             "location": "/technology/shell/",
@@ -132,7 +137,7 @@
         },
         {
             "location": "/technology/mkdocs/",
-            "text": "MkDocs\n\n\n\u9759\u6001\u7f51\u7ad9\u751f\u6210\n\n\n\n\n\u5b89\u88c5\n\n\nsudo pip2 install mkdocs    # Arch Linux\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\nmkdocs serve    # \u672c\u673a\u8c03\u8bd5\nmkdocs gh-deploy --clean    # \u90e8\u7f72\u5230 github",
+            "text": "MkDocs\n\n\n\u9759\u6001\u7f51\u7ad9\u751f\u6210\n\n\n\n\n\u5b89\u88c5\n\n\nsudo pip install mkdocs    # Arch Linux\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\nmkdocs serve    # \u672c\u673a\u8c03\u8bd5\nmkdocs gh-deploy --clean    # \u90e8\u7f72\u5230 github\n\n\n\n\n\u4e00\u4e2a\u4f8b\u5b50 \u2014 \n\u6211\u7684\u4e3b\u9875",
             "title": "MkDocs"
         },
         {
@@ -142,13 +147,18 @@
         },
         {
             "location": "/technology/mkdocs/#_1",
-            "text": "sudo pip2 install mkdocs    # Arch Linux",
+            "text": "sudo pip install mkdocs    # Arch Linux",
             "title": "\u5b89\u88c5"
         },
         {
             "location": "/technology/mkdocs/#_2",
             "text": "mkdocs serve    # \u672c\u673a\u8c03\u8bd5\nmkdocs gh-deploy --clean    # \u90e8\u7f72\u5230 github",
             "title": "\u5e38\u7528\u547d\u4ee4"
+        },
+        {
+            "location": "/technology/mkdocs/#-",
+            "text": "",
+            "title": "\u4e00\u4e2a\u4f8b\u5b50 --- \u6211\u7684\u4e3b\u9875"
         },
         {
             "location": "/humanity/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/",
