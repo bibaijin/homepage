@@ -174,7 +174,11 @@
     
         <li class="main active"><a href="#linux">Linux</a></li>
         
+            <li><a href="#arch-linux">系统安装（Arch Linux）</a></li>
+        
             <li><a href="#_1">配置</a></li>
+        
+            <li><a href="#_4">常用命令</a></li>
         
     
     </ul>
@@ -184,7 +188,57 @@
 <h1 id="linux">Linux</h1>
 <p>系统</p>
 <hr />
-<h2 id="_1">配置</h2></div>
+<h2 id="arch-linux">系统安装（Arch Linux）</h2>
+<h2 id="_1">配置</h2>
+<h3 id="_2">用户</h3>
+<pre><code class="sh"># 增加用户
+useradd test
+passwd test
+chsh -s /usr/bin/fish
+
+# ssh
+ssh-keygen -t rsa
+ssh b@B mkdir -p .ssh
+cat .ssh/id_rsa.pub | ssh b@B 'cat &gt;&gt; .ssh/authorized_keys'
+ssh b@B
+
+# /etc/ssh/sshd_config
+# Port 22 -&gt; Port xxxx  (xxxx &gt; 1024)
+service sshd restart
+</code></pre>
+
+<h3 id="_3">常用软件</h3>
+<h4 id="vim">VIM</h4>
+<pre><code class="sh"># CentOS 7
+sudo yum install vim
+</code></pre>
+
+<h4 id="fish">fish</h4>
+<pre><code class="sh"># CentOS 7
+cd /etc/yum.repos.d/
+wget http://download.opensuse.org/repositories/shells:fish:release:2/CentOS_7/shells:fish:release:2.repo
+yum install fish
+</code></pre>
+
+<h4 id="git">git</h4>
+<pre><code class="sh">yum install git
+</code></pre>
+
+<h4 id="shadowsocks">shadowsocks</h4>
+<pre><code class="sh">yum install python-setuptools &amp;&amp; easy_install pip
+pip install shadowsocks
+
+ssserver -c config.json
+# 后台
+ssserver -c config.json -d start
+ssserver -c config.json -d stop
+</code></pre>
+
+<h2 id="_4">常用命令</h2>
+<h3 id="_5">远程管理</h3>
+<pre><code class="sh"># 复制
+scp foobar.txt your_username@remotehost:/some/remote/directory
+</code></pre></div>
             
         </div>
 

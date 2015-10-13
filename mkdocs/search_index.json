@@ -92,7 +92,7 @@
         },
         {
             "location": "/technology/linux/",
-            "text": "Linux\n\n\n\u7cfb\u7edf\n\n\n\n\n\u914d\u7f6e",
+            "text": "Linux\n\n\n\u7cfb\u7edf\n\n\n\n\n\u7cfb\u7edf\u5b89\u88c5\uff08Arch Linux\uff09\n\n\n\u914d\u7f6e\n\n\n\u7528\u6237\n\n\n# \u589e\u52a0\u7528\u6237\nuseradd test\npasswd test\nchsh -s /usr/bin/fish\n\n# ssh\nssh-keygen -t rsa\nssh b@B mkdir -p .ssh\ncat .ssh/id_rsa.pub | ssh b@B 'cat >> .ssh/authorized_keys'\nssh b@B\n\n# /etc/ssh/sshd_config\n# Port 22 -> Port xxxx  (xxxx > 1024)\nservice sshd restart\n\n\n\n\n\u5e38\u7528\u8f6f\u4ef6\n\n\nVIM\n\n\n# CentOS 7\nsudo yum install vim\n\n\n\n\nfish\n\n\n# CentOS 7\ncd /etc/yum.repos.d/\nwget http://download.opensuse.org/repositories/shells:fish:release:2/CentOS_7/shells:fish:release:2.repo\nyum install fish\n\n\n\n\ngit\n\n\nyum install git\n\n\n\n\nshadowsocks\n\n\nyum install python-setuptools && easy_install pip\npip install shadowsocks\n\nssserver -c config.json\n# \u540e\u53f0\nssserver -c config.json -d start\nssserver -c config.json -d stop\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\n\u8fdc\u7a0b\u7ba1\u7406\n\n\n# \u590d\u5236\nscp foobar.txt your_username@remotehost:/some/remote/directory",
             "title": "Linux"
         },
         {
@@ -101,9 +101,19 @@
             "title": "Linux"
         },
         {
-            "location": "/technology/linux/#_1",
+            "location": "/technology/linux/#arch-linux",
             "text": "",
+            "title": "\u7cfb\u7edf\u5b89\u88c5\uff08Arch Linux\uff09"
+        },
+        {
+            "location": "/technology/linux/#_1",
+            "text": "\u7528\u6237  # \u589e\u52a0\u7528\u6237\nuseradd test\npasswd test\nchsh -s /usr/bin/fish\n\n# ssh\nssh-keygen -t rsa\nssh b@B mkdir -p .ssh\ncat .ssh/id_rsa.pub | ssh b@B 'cat >> .ssh/authorized_keys'\nssh b@B\n\n# /etc/ssh/sshd_config\n# Port 22 -> Port xxxx  (xxxx > 1024)\nservice sshd restart  \u5e38\u7528\u8f6f\u4ef6  VIM  # CentOS 7\nsudo yum install vim  fish  # CentOS 7\ncd /etc/yum.repos.d/\nwget http://download.opensuse.org/repositories/shells:fish:release:2/CentOS_7/shells:fish:release:2.repo\nyum install fish  git  yum install git  shadowsocks  yum install python-setuptools && easy_install pip\npip install shadowsocks\n\nssserver -c config.json\n# \u540e\u53f0\nssserver -c config.json -d start\nssserver -c config.json -d stop",
             "title": "\u914d\u7f6e"
+        },
+        {
+            "location": "/technology/linux/#_4",
+            "text": "\u8fdc\u7a0b\u7ba1\u7406  # \u590d\u5236\nscp foobar.txt your_username@remotehost:/some/remote/directory",
+            "title": "\u5e38\u7528\u547d\u4ee4"
         },
         {
             "location": "/technology/git/",
