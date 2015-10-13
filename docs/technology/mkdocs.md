@@ -7,7 +7,7 @@
 ## 安装
 
 ```shell
-sudo pip2 install mkdocs    # Arch Linux
+sudo pip install mkdocs    # Arch Linux
 ```
 
 ## 常用命令
@@ -16,3 +16,5 @@ sudo pip2 install mkdocs    # Arch Linux
 mkdocs serve    # 本机调试
 mkdocs gh-deploy --clean    # 部署到 github
 ```
+
+## 一个例子 --- [我的主页](https://github.com/bibaijin/homepage)
