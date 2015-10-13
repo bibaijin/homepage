@@ -17,4 +17,4 @@ mkdocs serve    # 本机调试
 mkdocs gh-deploy --clean    # 部署到 github
 ```
 
-## 一个例子 --- [我的主页](https://github.com/bibaijin/homepage)
+## 一个例子 --- [我的主页](https://bibaijin.github.io/homepage)
