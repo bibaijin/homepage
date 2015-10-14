@@ -177,13 +177,18 @@
         },
         {
             "location": "/about/",
-            "text": "\u5173\u4e8e\n\n\n\u7b80\u5386\u4e0b\u8f7d",
+            "text": "\u5173\u4e8e\n\n\n\u6211\n\n\n\n\n\u7b80\u5386",
             "title": "\u5173\u4e8e"
         },
         {
             "location": "/about/#_1",
-            "text": "\u7b80\u5386\u4e0b\u8f7d",
+            "text": "\u6211",
             "title": "\u5173\u4e8e"
+        },
+        {
+            "location": "/about/#_2",
+            "text": "",
+            "title": "\u7b80\u5386"
         }
     ]
 }
