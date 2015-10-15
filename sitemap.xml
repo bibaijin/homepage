@@ -30,6 +30,24 @@
     </url>
         
     <url>
+     <loc>https://bibaijin.github.io/homepage/technology/django/</loc>
+     <lastmod>2015-10-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://bibaijin.github.io/homepage/technology/matplotlib/</loc>
+     <lastmod>2015-10-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://bibaijin.github.io/homepage/technology/mkdocs/</loc>
+     <lastmod>2015-10-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>https://bibaijin.github.io/homepage/technology/shell/</loc>
      <lastmod>2015-10-15</lastmod>
      <changefreq>daily</changefreq>
@@ -49,18 +67,6 @@
         
     <url>
      <loc>https://bibaijin.github.io/homepage/technology/git/</loc>
-     <lastmod>2015-10-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://bibaijin.github.io/homepage/technology/mkdocs/</loc>
-     <lastmod>2015-10-15</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>https://bibaijin.github.io/homepage/technology/django/</loc>
      <lastmod>2015-10-15</lastmod>
      <changefreq>daily</changefreq>
     </url>

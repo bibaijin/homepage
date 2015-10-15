@@ -82,13 +82,68 @@
         },
         {
             "location": "/technology/python/#_5",
-            "text": "",
+            "text": "math  math.pi \n: \\(\\pi\\)",
             "title": "\u5e93"
         },
         {
-            "location": "/technology/python/#math",
-            "text": "math.pi \n: \\(\\pi\\)",
-            "title": "math"
+            "location": "/technology/django/",
+            "text": "Django\n\n\nPython \u7684\u91cd\u91cf\u7ea7 MVC \u6846\u67b6\n\n\n\n\n\u5b89\u88c5\n\n\npip install django\nsudo pacman -S python-psycopg2  # PostgreSQL interface\n\n\n\n\n\u8fd0\u884c\n\n\ncd $project\npython manage.py migrate    # create table\npython manage.py runserver",
+            "title": "Django"
+        },
+        {
+            "location": "/technology/django/#django",
+            "text": "Python \u7684\u91cd\u91cf\u7ea7 MVC \u6846\u67b6",
+            "title": "Django"
+        },
+        {
+            "location": "/technology/django/#_1",
+            "text": "pip install django\nsudo pacman -S python-psycopg2  # PostgreSQL interface",
+            "title": "\u5b89\u88c5"
+        },
+        {
+            "location": "/technology/django/#_2",
+            "text": "cd $project\npython manage.py migrate    # create table\npython manage.py runserver",
+            "title": "\u8fd0\u884c"
+        },
+        {
+            "location": "/technology/matplotlib/",
+            "text": "matplotlib\n\n\nPython \u7ed8\u56fe\u5e93\n\n\n\n\n\u5b89\u88c5\n\n\nsudo pip install matplotlib",
+            "title": "matplotlib"
+        },
+        {
+            "location": "/technology/matplotlib/#matplotlib",
+            "text": "Python \u7ed8\u56fe\u5e93",
+            "title": "matplotlib"
+        },
+        {
+            "location": "/technology/matplotlib/#_1",
+            "text": "sudo pip install matplotlib",
+            "title": "\u5b89\u88c5"
+        },
+        {
+            "location": "/technology/mkdocs/",
+            "text": "MkDocs\n\n\n\u9759\u6001\u7f51\u7ad9\u751f\u6210\n\n\n\n\n\u5b89\u88c5\n\n\nsudo pip install mkdocs    # Arch Linux\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\nmkdocs serve    # \u672c\u673a\u8c03\u8bd5\nmkdocs gh-deploy --clean    # \u90e8\u7f72\u5230 github\n\n\n\n\n\u4e00\u4e2a\u4f8b\u5b50 \u2014 \n\u6211\u7684\u4e3b\u9875",
+            "title": "MkDocs"
+        },
+        {
+            "location": "/technology/mkdocs/#mkdocs",
+            "text": "\u9759\u6001\u7f51\u7ad9\u751f\u6210",
+            "title": "MkDocs"
+        },
+        {
+            "location": "/technology/mkdocs/#_1",
+            "text": "sudo pip install mkdocs    # Arch Linux",
+            "title": "\u5b89\u88c5"
+        },
+        {
+            "location": "/technology/mkdocs/#_2",
+            "text": "mkdocs serve    # \u672c\u673a\u8c03\u8bd5\nmkdocs gh-deploy --clean    # \u90e8\u7f72\u5230 github",
+            "title": "\u5e38\u7528\u547d\u4ee4"
+        },
+        {
+            "location": "/technology/mkdocs/#-",
+            "text": "",
+            "title": "\u4e00\u4e2a\u4f8b\u5b50 --- \u6211\u7684\u4e3b\u9875"
         },
         {
             "location": "/technology/shell/",
@@ -184,51 +239,6 @@
             "location": "/technology/git/#_4",
             "text": "",
             "title": "\u6280\u5de7"
-        },
-        {
-            "location": "/technology/mkdocs/",
-            "text": "MkDocs\n\n\n\u9759\u6001\u7f51\u7ad9\u751f\u6210\n\n\n\n\n\u5b89\u88c5\n\n\nsudo pip install mkdocs    # Arch Linux\n\n\n\n\n\u5e38\u7528\u547d\u4ee4\n\n\nmkdocs serve    # \u672c\u673a\u8c03\u8bd5\nmkdocs gh-deploy --clean    # \u90e8\u7f72\u5230 github\n\n\n\n\n\u4e00\u4e2a\u4f8b\u5b50 \u2014 \n\u6211\u7684\u4e3b\u9875",
-            "title": "MkDocs"
-        },
-        {
-            "location": "/technology/mkdocs/#mkdocs",
-            "text": "\u9759\u6001\u7f51\u7ad9\u751f\u6210",
-            "title": "MkDocs"
-        },
-        {
-            "location": "/technology/mkdocs/#_1",
-            "text": "sudo pip install mkdocs    # Arch Linux",
-            "title": "\u5b89\u88c5"
-        },
-        {
-            "location": "/technology/mkdocs/#_2",
-            "text": "mkdocs serve    # \u672c\u673a\u8c03\u8bd5\nmkdocs gh-deploy --clean    # \u90e8\u7f72\u5230 github",
-            "title": "\u5e38\u7528\u547d\u4ee4"
-        },
-        {
-            "location": "/technology/mkdocs/#-",
-            "text": "",
-            "title": "\u4e00\u4e2a\u4f8b\u5b50 --- \u6211\u7684\u4e3b\u9875"
-        },
-        {
-            "location": "/technology/django/",
-            "text": "Django\n\n\nPython \u7684\u91cd\u91cf\u7ea7 MVC \u6846\u67b6\n\n\n\n\n\u5b89\u88c5\n\n\npip install django\nsudo pacman -S python-psycopg2  # PostgreSQL interface\n\n\n\n\n\u8fd0\u884c\n\n\ncd $project\npython manage.py migrate    # create table\npython manage.py runserver",
-            "title": "Django"
-        },
-        {
-            "location": "/technology/django/#django",
-            "text": "Python \u7684\u91cd\u91cf\u7ea7 MVC \u6846\u67b6",
-            "title": "Django"
-        },
-        {
-            "location": "/technology/django/#_1",
-            "text": "pip install django\nsudo pacman -S python-psycopg2  # PostgreSQL interface",
-            "title": "\u5b89\u88c5"
-        },
-        {
-            "location": "/technology/django/#_2",
-            "text": "cd $project\npython manage.py migrate    # create table\npython manage.py runserver",
-            "title": "\u8fd0\u884c"
         },
         {
             "location": "/humanity/\u897f\u65b9\u4f26\u7406\u5b66\u53f2/",
