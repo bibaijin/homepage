@@ -57,7 +57,7 @@
         },
         {
             "location": "/technology/python/",
-            "text": "Python\n\n\n\u8bed\u8a00\n\n\n\n\n\u5b89\u88c5\n\n\n\u914d\u7f6e\n\n\n\u5f00\u53d1\u73af\u5883\n\n\nVim\n\n\nvirtualenv\n\n\n\u5e93",
+            "text": "Python\n\n\n\u8bed\u8a00\n\n\n\n\n\u5b89\u88c5\n\n\n\u914d\u7f6e\n\n\n\u5f00\u53d1\u73af\u5883\n\n\nVim\n\n\nvirtualenv\n\n\n\u5185\u5efa\u51fd\u6570\n\n\n\u5e93\n\n\nmath\n\n\nmath.pi\n\n: \\(\\pi\\)",
             "title": "Python"
         },
         {
@@ -78,7 +78,17 @@
         {
             "location": "/technology/python/#_4",
             "text": "",
+            "title": "\u5185\u5efa\u51fd\u6570"
+        },
+        {
+            "location": "/technology/python/#_5",
+            "text": "",
             "title": "\u5e93"
+        },
+        {
+            "location": "/technology/python/#math",
+            "text": "math.pi \n: \\(\\pi\\)",
+            "title": "math"
         },
         {
             "location": "/technology/shell/",
@@ -147,7 +157,7 @@
         },
         {
             "location": "/technology/git/",
-            "text": "Git\n\n\n\u7248\u672c\u7ba1\u7406\u8f6f\u4ef6\n\n\n\n\n\u547d\u4ee4\n\n\ncheckout \u2014 \u8df3\u8f6c\u5230\u67d0\u4e00\u5206\u652f\n\n\ngit checkout master     # switch to master\ngit checkout master foo.txt    # merge master's foo.txt\n\n\n\n\nstash \u2014 \u9690\u85cf\u5f53\u524d\u66f4\u6539\n\n\ngit stash   # \u9690\u85cf\u5f53\u524d\u66f4\u6539\ngit stash pop # \u6062\u590d\u66f4\u6539\n\n\n\n\nreset \u2014 \u91cd\u7f6e\n\n\ngit reset --hard $commit_identification   # \u91cd\u7f6e\u5230 commit\n\n\n\n\nrevert \u2014 \u64a4\u9500\u63d0\u4ea4\n\n\ngit revert HEAD~3   # \u64a4\u9500\u5012\u6570\u7b2c\u56db\u6b21\u63d0\u4ea4\n\n\n\n\ntag \u2014 \u6dfb\u52a0\u6807\u7b7e\n\n\ngit tag -a v0.0.1 -m 'version 0.0.1'    # \u589e\u52a0\u6807\u7b7e\ngit tag     # \u663e\u793a\u6240\u6709\u6807\u7b7e\ngit show v0.0.1\ngit push origin --tags  # \u63a8\u9001\u5230\u670d\u52a1\u5668\n\n\n\n\n\u6280\u5de7",
+            "text": "Git\n\n\n\u7248\u672c\u7ba1\u7406\u8f6f\u4ef6\n\n\n\n\n\u547d\u4ee4\n\n\ncheckout \u2014 \u8df3\u8f6c\u5230\u67d0\u4e00\u5206\u652f\n\n\ngit checkout master     # switch to master\ngit checkout master foo.txt    # merge master's foo.txt\n\n\n\n\npush \u2014 \u63a8\u9001\u5230\u8fdc\u7aef\n\n\ngit push origin master  # \u63a8\u9001\u5230\u8fdc\u7aef\ngit push origin master -f   # overwrite remote\n\n\n\n\nstash \u2014 \u9690\u85cf\u5f53\u524d\u66f4\u6539\n\n\ngit stash   # \u9690\u85cf\u5f53\u524d\u66f4\u6539\ngit stash pop # \u6062\u590d\u66f4\u6539\n\n\n\n\nreset \u2014 \u91cd\u7f6e\n\n\ngit reset --hard $commit_identification   # \u91cd\u7f6e\u5230 commit\n\n\n\n\nrevert \u2014 \u64a4\u9500\u63d0\u4ea4\n\n\ngit revert HEAD~3   # \u64a4\u9500\u5012\u6570\u7b2c\u56db\u6b21\u63d0\u4ea4\n\n\n\n\ntag \u2014 \u6dfb\u52a0\u6807\u7b7e\n\n\ngit tag -a v0.0.1 -m 'version 0.0.1'    # \u589e\u52a0\u6807\u7b7e\ngit tag     # \u663e\u793a\u6240\u6709\u6807\u7b7e\ngit show v0.0.1\ngit push origin --tags  # \u63a8\u9001\u5230\u670d\u52a1\u5668\n\n\n\n\n\u5de5\u4f5c\u6d41\n\n\n\u7248\u672c\u53f7\n\n\n\u6280\u5de7",
             "title": "Git"
         },
         {
@@ -157,11 +167,21 @@
         },
         {
             "location": "/technology/git/#_1",
-            "text": "checkout \u2014 \u8df3\u8f6c\u5230\u67d0\u4e00\u5206\u652f  git checkout master     # switch to master\ngit checkout master foo.txt    # merge master's foo.txt  stash \u2014 \u9690\u85cf\u5f53\u524d\u66f4\u6539  git stash   # \u9690\u85cf\u5f53\u524d\u66f4\u6539\ngit stash pop # \u6062\u590d\u66f4\u6539  reset \u2014 \u91cd\u7f6e  git reset --hard $commit_identification   # \u91cd\u7f6e\u5230 commit  revert \u2014 \u64a4\u9500\u63d0\u4ea4  git revert HEAD~3   # \u64a4\u9500\u5012\u6570\u7b2c\u56db\u6b21\u63d0\u4ea4  tag \u2014 \u6dfb\u52a0\u6807\u7b7e  git tag -a v0.0.1 -m 'version 0.0.1'    # \u589e\u52a0\u6807\u7b7e\ngit tag     # \u663e\u793a\u6240\u6709\u6807\u7b7e\ngit show v0.0.1\ngit push origin --tags  # \u63a8\u9001\u5230\u670d\u52a1\u5668",
+            "text": "checkout \u2014 \u8df3\u8f6c\u5230\u67d0\u4e00\u5206\u652f  git checkout master     # switch to master\ngit checkout master foo.txt    # merge master's foo.txt  push \u2014 \u63a8\u9001\u5230\u8fdc\u7aef  git push origin master  # \u63a8\u9001\u5230\u8fdc\u7aef\ngit push origin master -f   # overwrite remote  stash \u2014 \u9690\u85cf\u5f53\u524d\u66f4\u6539  git stash   # \u9690\u85cf\u5f53\u524d\u66f4\u6539\ngit stash pop # \u6062\u590d\u66f4\u6539  reset \u2014 \u91cd\u7f6e  git reset --hard $commit_identification   # \u91cd\u7f6e\u5230 commit  revert \u2014 \u64a4\u9500\u63d0\u4ea4  git revert HEAD~3   # \u64a4\u9500\u5012\u6570\u7b2c\u56db\u6b21\u63d0\u4ea4  tag \u2014 \u6dfb\u52a0\u6807\u7b7e  git tag -a v0.0.1 -m 'version 0.0.1'    # \u589e\u52a0\u6807\u7b7e\ngit tag     # \u663e\u793a\u6240\u6709\u6807\u7b7e\ngit show v0.0.1\ngit push origin --tags  # \u63a8\u9001\u5230\u670d\u52a1\u5668",
             "title": "\u547d\u4ee4"
         },
         {
             "location": "/technology/git/#_2",
+            "text": "",
+            "title": "\u5de5\u4f5c\u6d41"
+        },
+        {
+            "location": "/technology/git/#_3",
+            "text": "",
+            "title": "\u7248\u672c\u53f7"
+        },
+        {
+            "location": "/technology/git/#_4",
             "text": "",
             "title": "\u6280\u5de7"
         },

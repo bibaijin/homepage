@@ -24,6 +24,9 @@
         <![endif]-->
 
         
+
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
     </head>
 
     <body>
@@ -188,7 +191,11 @@
         
             <li><a href="#_1">命令</a></li>
         
-            <li><a href="#_2">技巧</a></li>
+            <li><a href="#_2">工作流</a></li>
+        
+            <li><a href="#_3">版本号</a></li>
+        
+            <li><a href="#_4">技巧</a></li>
         
     
     </ul>
@@ -200,8 +207,13 @@
 <hr />
 <h2 id="_1">命令</h2>
 <h3 id="checkout-">checkout &mdash; 跳转到某一分支</h3>
-<pre><code class="shell">git checkout master     # switch to master
+<pre><code class="sh">git checkout master     # switch to master
 git checkout master foo.txt    # merge master's foo.txt
+</code></pre>
+
+<h3 id="push-">push &mdash; 推送到远端</h3>
+<pre><code class="sh">git push origin master  # 推送到远端
+git push origin master -f   # overwrite remote
 </code></pre>
 
 <h3 id="stash-">stash &mdash; 隐藏当前更改</h3>
@@ -224,7 +236,9 @@ git show v0.0.1
 git push origin --tags  # 推送到服务器
 </code></pre>
 
-<h2 id="_2">技巧</h2></div>
+<h2 id="_2">工作流</h2>
+<h2 id="_3">版本号</h2>
+<h2 id="_4">技巧</h2></div>
             
         </div>
 
