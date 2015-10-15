@@ -4,23 +4,35 @@
 
 ---
 
-## 技巧
+## 命令
 
-### 合并另一个分支的某个文件
-
-#### 语法
+### checkout --- 跳转到某一分支
 
 ```shell
-git checkout source_branch <paths>...
+git checkout master     # switch to master
+git checkout master foo.txt    # merge master's foo.txt
 ```
 
-#### 例子
+### stash --- 隐藏当前更改
 
-```shell
-git checkout master Makefile    # now in branch banking
+```sh
+git stash   # 隐藏当前更改
+git stash pop # 恢复更改
 ```
 
-### 标签的使用
+### reset --- 重置
+
+```sh
+git reset --hard $commit_identification   # 重置到 commit
+```
+
+### revert --- 撤销提交
+
+```sh
+git revert HEAD~3   # 撤销倒数第四次提交
+```
+
+### tag --- 添加标签
 
 ```sh
 git tag -a v0.0.1 -m 'version 0.0.1'    # 增加标签
@@ -28,3 +40,5 @@ git tag     # 显示所有标签
 git show v0.0.1
 git push origin --tags  # 推送到服务器
 ```
+
+## 技巧
