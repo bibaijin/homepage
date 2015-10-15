@@ -14,12 +14,13 @@ pages:
     - Haskell: technology/haskell.md
     - LaTeX: technology/LaTeX.md
     - Python: technology/python.md
+    - Django: technology/django.md
+    - matplotlib: technology/matplotlib.md
+    - MkDocs: technology/mkdocs.md
     - Shell: technology/shell.md
     - Linux: technology/linux.md
     - PostgreSQL: technology/postgresql.md
     - Git: technology/git.md
-    - MkDocs: technology/mkdocs.md
-    - Django: technology/django.md
 - 人文:
     - 西方伦理学史: humanity/西方伦理学史.md
 - 关于: about.md
