@@ -186,7 +186,9 @@
     
         <li class="main active"><a href="#git">Git</a></li>
         
-            <li><a href="#_1">技巧</a></li>
+            <li><a href="#_1">命令</a></li>
+        
+            <li><a href="#_2">技巧</a></li>
         
     
     </ul>
@@ -196,22 +198,33 @@
 <h1 id="git">Git</h1>
 <p>版本管理软件</p>
 <hr />
-<h2 id="_1">技巧</h2>
-<h3 id="_2">合并另一个分支的某个文件</h3>
-<h4 id="_3">语法</h4>
-<pre><code class="shell">git checkout source_branch &lt;paths&gt;...
+<h2 id="_1">命令</h2>
+<h3 id="checkout-">checkout &mdash; 跳转到某一分支</h3>
+<pre><code class="shell">git checkout master     # switch to master
+git checkout master foo.txt    # merge master's foo.txt
 </code></pre>
 
-<h4 id="_4">例子</h4>
-<pre><code class="shell">git checkout master Makefile    # now in branch banking
+<h3 id="stash-">stash &mdash; 隐藏当前更改</h3>
+<pre><code class="sh">git stash   # 隐藏当前更改
+git stash pop # 恢复更改
 </code></pre>
 
-<h3 id="_5">标签的使用</h3>
+<h3 id="reset-">reset &mdash; 重置</h3>
+<pre><code class="sh">git reset --hard $commit_identification   # 重置到 commit
+</code></pre>
+
+<h3 id="revert-">revert &mdash; 撤销提交</h3>
+<pre><code class="sh">git revert HEAD~3   # 撤销倒数第四次提交
+</code></pre>
+
+<h3 id="tag-">tag &mdash; 添加标签</h3>
 <pre><code class="sh">git tag -a v0.0.1 -m 'version 0.0.1'    # 增加标签
 git tag     # 显示所有标签
 git show v0.0.1
 git push origin --tags  # 推送到服务器
-</code></pre></div>
+</code></pre>
+
+<h2 id="_2">技巧</h2></div>
             
         </div>
 

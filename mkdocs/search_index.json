@@ -147,7 +147,7 @@
         },
         {
             "location": "/technology/git/",
-            "text": "Git\n\n\n\u7248\u672c\u7ba1\u7406\u8f6f\u4ef6\n\n\n\n\n\u6280\u5de7\n\n\n\u5408\u5e76\u53e6\u4e00\u4e2a\u5206\u652f\u7684\u67d0\u4e2a\u6587\u4ef6\n\n\n\u8bed\u6cd5\n\n\ngit checkout source_branch <paths>...\n\n\n\n\n\u4f8b\u5b50\n\n\ngit checkout master Makefile    # now in branch banking\n\n\n\n\n\u6807\u7b7e\u7684\u4f7f\u7528\n\n\ngit tag -a v0.0.1 -m 'version 0.0.1'    # \u589e\u52a0\u6807\u7b7e\ngit tag     # \u663e\u793a\u6240\u6709\u6807\u7b7e\ngit show v0.0.1\ngit push origin --tags  # \u63a8\u9001\u5230\u670d\u52a1\u5668",
+            "text": "Git\n\n\n\u7248\u672c\u7ba1\u7406\u8f6f\u4ef6\n\n\n\n\n\u547d\u4ee4\n\n\ncheckout \u2014 \u8df3\u8f6c\u5230\u67d0\u4e00\u5206\u652f\n\n\ngit checkout master     # switch to master\ngit checkout master foo.txt    # merge master's foo.txt\n\n\n\n\nstash \u2014 \u9690\u85cf\u5f53\u524d\u66f4\u6539\n\n\ngit stash   # \u9690\u85cf\u5f53\u524d\u66f4\u6539\ngit stash pop # \u6062\u590d\u66f4\u6539\n\n\n\n\nreset \u2014 \u91cd\u7f6e\n\n\ngit reset --hard $commit_identification   # \u91cd\u7f6e\u5230 commit\n\n\n\n\nrevert \u2014 \u64a4\u9500\u63d0\u4ea4\n\n\ngit revert HEAD~3   # \u64a4\u9500\u5012\u6570\u7b2c\u56db\u6b21\u63d0\u4ea4\n\n\n\n\ntag \u2014 \u6dfb\u52a0\u6807\u7b7e\n\n\ngit tag -a v0.0.1 -m 'version 0.0.1'    # \u589e\u52a0\u6807\u7b7e\ngit tag     # \u663e\u793a\u6240\u6709\u6807\u7b7e\ngit show v0.0.1\ngit push origin --tags  # \u63a8\u9001\u5230\u670d\u52a1\u5668\n\n\n\n\n\u6280\u5de7",
             "title": "Git"
         },
         {
@@ -157,7 +157,12 @@
         },
         {
             "location": "/technology/git/#_1",
-            "text": "\u5408\u5e76\u53e6\u4e00\u4e2a\u5206\u652f\u7684\u67d0\u4e2a\u6587\u4ef6  \u8bed\u6cd5  git checkout source_branch <paths>...  \u4f8b\u5b50  git checkout master Makefile    # now in branch banking  \u6807\u7b7e\u7684\u4f7f\u7528  git tag -a v0.0.1 -m 'version 0.0.1'    # \u589e\u52a0\u6807\u7b7e\ngit tag     # \u663e\u793a\u6240\u6709\u6807\u7b7e\ngit show v0.0.1\ngit push origin --tags  # \u63a8\u9001\u5230\u670d\u52a1\u5668",
+            "text": "checkout \u2014 \u8df3\u8f6c\u5230\u67d0\u4e00\u5206\u652f  git checkout master     # switch to master\ngit checkout master foo.txt    # merge master's foo.txt  stash \u2014 \u9690\u85cf\u5f53\u524d\u66f4\u6539  git stash   # \u9690\u85cf\u5f53\u524d\u66f4\u6539\ngit stash pop # \u6062\u590d\u66f4\u6539  reset \u2014 \u91cd\u7f6e  git reset --hard $commit_identification   # \u91cd\u7f6e\u5230 commit  revert \u2014 \u64a4\u9500\u63d0\u4ea4  git revert HEAD~3   # \u64a4\u9500\u5012\u6570\u7b2c\u56db\u6b21\u63d0\u4ea4  tag \u2014 \u6dfb\u52a0\u6807\u7b7e  git tag -a v0.0.1 -m 'version 0.0.1'    # \u589e\u52a0\u6807\u7b7e\ngit tag     # \u663e\u793a\u6240\u6709\u6807\u7b7e\ngit show v0.0.1\ngit push origin --tags  # \u63a8\u9001\u5230\u670d\u52a1\u5668",
+            "title": "\u547d\u4ee4"
+        },
+        {
+            "location": "/technology/git/#_2",
+            "text": "",
             "title": "\u6280\u5de7"
         },
         {
