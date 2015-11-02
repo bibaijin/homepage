@@ -16,6 +16,10 @@
 
 ## 内建函数
 
+```python
+print("Hello {}".format("world"))
+```
+
 ## 库
 
 ### math
